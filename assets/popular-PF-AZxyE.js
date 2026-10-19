@@ -1,0 +1,1 @@
+import{s as e}from"./link-D9KumGs3.js";import{s as t}from"./apps-Bd6IIQcY.js";import{t as n}from"./AppGrid-t_DbueVh.js";var r=e(),i=()=>(0,r.jsxs)(`div`,{className:`space-y-4`,children:[(0,r.jsx)(`h1`,{className:`text-2xl font-extrabold`,children:`Популярные`}),(0,r.jsx)(n,{items:t()})]});export{i as component};

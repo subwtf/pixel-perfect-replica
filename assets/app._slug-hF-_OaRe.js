@@ -1,0 +1,1 @@
+import{s as e,t}from"./link-D9KumGs3.js";var n=e(),r=()=>(0,n.jsxs)(`div`,{className:`py-20 text-center`,children:[(0,n.jsx)(`h1`,{className:`text-2xl font-bold`,children:`Приложение не найдено`}),(0,n.jsx)(t,{to:`/apps`,className:`mt-4 inline-block text-primary`,children:`Все приложения`})]});export{r as notFoundComponent};
