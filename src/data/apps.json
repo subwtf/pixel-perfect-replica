@@ -1,0 +1,682 @@
+[
+  {
+    "id": "v2rayng",
+    "slug": "v2rayng",
+    "name": "v2rayNG",
+    "category": "vpn",
+    "categoryName": "Сети & VPN",
+    "icon": "https://github.com/2dust.png?size=200",
+    "developer": "2dust",
+    "githubUrl": "https://github.com/2dust/v2rayNG",
+    "version": "1.8.19",
+    "size": "45.2 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Популярный V2Ray / Xray клиент для Android с поддержкой VLESS, Shadowsocks и Trojan.",
+    "fullDescriptionMarkdown": "### О программе\nv2rayNG — популярный V2Ray / Xray клиент для Android с поддержкой VLESS, Shadowsocks и Trojan.\n\n### Особенности\n- Поддержка VLESS, XTLS, Reality\n- Импорт конфигураций по QR-коду\n- Высокая скорость работы\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/2dust/v2rayNG/releases/download/1.8.19/v2rayNG_1.8.19_universal.apk",
+    "architectures": [
+      {
+        "name": "arm64-v8a",
+        "url": "https://github.com/2dust/v2rayNG/releases/download/1.8.19/v2rayNG_1.8.19_arm64-v8a.apk"
+      },
+      {
+        "name": "armeabi-v7a",
+        "url": "https://github.com/2dust/v2rayNG/releases/download/1.8.19/v2rayNG_1.8.19_armeabi-v7a.apk"
+      },
+      {
+        "name": "x86_64",
+        "url": "https://github.com/2dust/v2rayNG/releases/download/1.8.19/v2rayNG_1.8.19_x86_64.apk"
+      },
+      {
+        "name": "universal",
+        "url": "https://github.com/2dust/v2rayNG/releases/download/1.8.19/v2rayNG_1.8.19_universal.apk"
+      }
+    ],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "1.8.19",
+        "date": "2026-10-15",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/2dust/v2rayNG/releases"
+      }
+    ],
+    "updatedAt": "2026-10-15",
+    "isTop": true
+  },
+  {
+    "id": "nekobox",
+    "slug": "nekobox",
+    "name": "NekoBox",
+    "category": "vpn",
+    "categoryName": "Сети & VPN",
+    "icon": "https://github.com/MatsuriDayo.png?size=200",
+    "developer": "MatsuriDayo",
+    "githubUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
+    "version": "1.3.4",
+    "size": "32.8 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Универсальный прокси-клиент на базе sing-box с поддержкой множества протоколов.",
+    "fullDescriptionMarkdown": "### О программе\nNekoBox — универсальный прокси-клиент на базе sing-box с поддержкой множества протоколов.\n\n### Особенности\n- Ядро sing-box\n- Hysteria, TUIC, WireGuard\n- Гибкие правила маршрутизации\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.3.4/NekoBox_1.3.4_universal.apk",
+    "architectures": [
+      {
+        "name": "arm64-v8a",
+        "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.3.4/NekoBox_1.3.4_arm64-v8a.apk"
+      },
+      {
+        "name": "armeabi-v7a",
+        "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.3.4/NekoBox_1.3.4_armeabi-v7a.apk"
+      },
+      {
+        "name": "x86_64",
+        "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.3.4/NekoBox_1.3.4_x86_64.apk"
+      },
+      {
+        "name": "universal",
+        "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/download/1.3.4/NekoBox_1.3.4_universal.apk"
+      }
+    ],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "1.3.4",
+        "date": "2026-10-08",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases"
+      }
+    ],
+    "updatedAt": "2026-10-08",
+    "isTop": false
+  },
+  {
+    "id": "newpipe",
+    "slug": "newpipe",
+    "name": "NewPipe",
+    "category": "media",
+    "categoryName": "Медиа & Видео",
+    "icon": "https://github.com/TeamNewPipe.png?size=200",
+    "developer": "TeamNewPipe",
+    "githubUrl": "https://github.com/TeamNewPipe/NewPipe",
+    "version": "0.27.2",
+    "size": "11.4 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Лёгкий клиент YouTube без рекламы, с фоновым воспроизведением и загрузкой видео.",
+    "fullDescriptionMarkdown": "### О программе\nNewPipe — лёгкий клиент YouTube без рекламы, с фоновым воспроизведением и загрузкой видео.\n\n### Особенности\n- Фоновое воспроизведение\n- Режим «картинка в картинке»\n- Загрузка видео и аудио\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/TeamNewPipe/NewPipe/releases/download/0.27.2/NewPipe_0.27.2_universal.apk",
+    "architectures": [],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "0.27.2",
+        "date": "2026-10-12",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/TeamNewPipe/NewPipe/releases"
+      }
+    ],
+    "updatedAt": "2026-10-12",
+    "isTop": true
+  },
+  {
+    "id": "seal",
+    "slug": "seal",
+    "name": "Seal",
+    "category": "media",
+    "categoryName": "Медиа & Видео",
+    "icon": "https://github.com/JunkFood02.png?size=200",
+    "developer": "JunkFood02",
+    "githubUrl": "https://github.com/JunkFood02/Seal",
+    "version": "1.13.1",
+    "size": "38.6 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Загрузчик видео и аудио на базе yt-dlp с интерфейсом Material You.",
+    "fullDescriptionMarkdown": "### О программе\nSeal — загрузчик видео и аудио на базе yt-dlp с интерфейсом Material You.\n\n### Особенности\n- Поддержка сотен сайтов\n- Плейлисты и субтитры\n- Material You\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/JunkFood02/Seal/releases/download/1.13.1/Seal_1.13.1_universal.apk",
+    "architectures": [
+      {
+        "name": "arm64-v8a",
+        "url": "https://github.com/JunkFood02/Seal/releases/download/1.13.1/Seal_1.13.1_arm64-v8a.apk"
+      },
+      {
+        "name": "armeabi-v7a",
+        "url": "https://github.com/JunkFood02/Seal/releases/download/1.13.1/Seal_1.13.1_armeabi-v7a.apk"
+      },
+      {
+        "name": "x86_64",
+        "url": "https://github.com/JunkFood02/Seal/releases/download/1.13.1/Seal_1.13.1_x86_64.apk"
+      },
+      {
+        "name": "universal",
+        "url": "https://github.com/JunkFood02/Seal/releases/download/1.13.1/Seal_1.13.1_universal.apk"
+      }
+    ],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "1.13.1",
+        "date": "2026-09-28",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/JunkFood02/Seal/releases"
+      }
+    ],
+    "updatedAt": "2026-09-28",
+    "isTop": false
+  },
+  {
+    "id": "mpv",
+    "slug": "mpv",
+    "name": "mpv-android",
+    "category": "media",
+    "categoryName": "Медиа & Видео",
+    "icon": "https://github.com/mpv-android.png?size=200",
+    "developer": "mpv-android",
+    "githubUrl": "https://github.com/mpv-android/mpv-android",
+    "version": "2024-09-07",
+    "size": "28.1 MB",
+    "license": "MIT",
+    "shortDescription": "Мощный видеоплеер на базе mpv с аппаратным декодированием.",
+    "fullDescriptionMarkdown": "### О программе\nmpv-android — мощный видеоплеер на базе mpv с аппаратным декодированием.\n\n### Особенности\n- Аппаратное декодирование\n- Поддержка почти всех форматов\n- Жесты управления\n\n### Лицензия\nПроект распространяется по лицензии **MIT**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/mpv-android/mpv-android/releases/download/2024-09-07/mpv-android_2024-09-07_universal.apk",
+    "architectures": [
+      {
+        "name": "arm64-v8a",
+        "url": "https://github.com/mpv-android/mpv-android/releases/download/2024-09-07/mpv-android_2024-09-07_arm64-v8a.apk"
+      },
+      {
+        "name": "armeabi-v7a",
+        "url": "https://github.com/mpv-android/mpv-android/releases/download/2024-09-07/mpv-android_2024-09-07_armeabi-v7a.apk"
+      },
+      {
+        "name": "x86_64",
+        "url": "https://github.com/mpv-android/mpv-android/releases/download/2024-09-07/mpv-android_2024-09-07_x86_64.apk"
+      },
+      {
+        "name": "universal",
+        "url": "https://github.com/mpv-android/mpv-android/releases/download/2024-09-07/mpv-android_2024-09-07_universal.apk"
+      }
+    ],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "2024-09-07",
+        "date": "2026-09-14",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/mpv-android/mpv-android/releases"
+      }
+    ],
+    "updatedAt": "2026-09-14",
+    "isTop": false
+  },
+  {
+    "id": "auxio",
+    "slug": "auxio",
+    "name": "Auxio",
+    "category": "music",
+    "categoryName": "Музыка & Аудио",
+    "icon": "https://github.com/OxygenCobalt.png?size=200",
+    "developer": "OxygenCobalt",
+    "githubUrl": "https://github.com/OxygenCobalt/Auxio",
+    "version": "3.6.0",
+    "size": "7.9 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Простой и быстрый музыкальный плеер с аккуратным интерфейсом.",
+    "fullDescriptionMarkdown": "### О программе\nAuxio — простой и быстрый музыкальный плеер с аккуратным интерфейсом.\n\n### Особенности\n- Gapless-воспроизведение\n- Умная библиотека\n- Без телеметрии\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/OxygenCobalt/Auxio/releases/download/3.6.0/Auxio_3.6.0_universal.apk",
+    "architectures": [],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "3.6.0",
+        "date": "2026-10-03",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/OxygenCobalt/Auxio/releases"
+      }
+    ],
+    "updatedAt": "2026-10-03",
+    "isTop": true
+  },
+  {
+    "id": "antennapod",
+    "slug": "antennapod",
+    "name": "AntennaPod",
+    "category": "music",
+    "categoryName": "Музыка & Аудио",
+    "icon": "https://github.com/AntennaPod.png?size=200",
+    "developer": "AntennaPod",
+    "githubUrl": "https://github.com/AntennaPod/AntennaPod",
+    "version": "3.5.0",
+    "size": "15.3 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Менеджер и плеер подкастов с полной свободой выбора источников.",
+    "fullDescriptionMarkdown": "### О программе\nAntennaPod — менеджер и плеер подкастов с полной свободой выбора источников.\n\n### Особенности\n- RSS и iTunes-каталоги\n- Скачивание эпизодов\n- Синхронизация через gpodder\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/AntennaPod/AntennaPod/releases/download/3.5.0/AntennaPod_3.5.0_universal.apk",
+    "architectures": [],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "3.5.0",
+        "date": "2026-09-20",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/AntennaPod/AntennaPod/releases"
+      }
+    ],
+    "updatedAt": "2026-09-20",
+    "isTop": false
+  },
+  {
+    "id": "molly",
+    "slug": "molly",
+    "name": "Molly",
+    "category": "messengers",
+    "categoryName": "Общение",
+    "icon": "https://github.com/mollyim.png?size=200",
+    "developer": "mollyim",
+    "githubUrl": "https://github.com/mollyim/mollyim-android",
+    "version": "7.20.3",
+    "size": "62.0 MB",
+    "license": "AGPL-3.0",
+    "shortDescription": "Защищённый форк Signal с шифрованием базы данных и дополнительными настройками.",
+    "fullDescriptionMarkdown": "### О программе\nMolly — защищённый форк Signal с шифрованием базы данных и дополнительными настройками.\n\n### Особенности\n- Шифрование базы паролем\n- Совместим с Signal\n- Без проприетарных библиотек (FOSS-сборка)\n\n### Лицензия\nПроект распространяется по лицензии **AGPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/mollyim/mollyim-android/releases/download/7.20.3/Molly_7.20.3_universal.apk",
+    "architectures": [
+      {
+        "name": "arm64-v8a",
+        "url": "https://github.com/mollyim/mollyim-android/releases/download/7.20.3/Molly_7.20.3_arm64-v8a.apk"
+      },
+      {
+        "name": "armeabi-v7a",
+        "url": "https://github.com/mollyim/mollyim-android/releases/download/7.20.3/Molly_7.20.3_armeabi-v7a.apk"
+      },
+      {
+        "name": "x86_64",
+        "url": "https://github.com/mollyim/mollyim-android/releases/download/7.20.3/Molly_7.20.3_x86_64.apk"
+      },
+      {
+        "name": "universal",
+        "url": "https://github.com/mollyim/mollyim-android/releases/download/7.20.3/Molly_7.20.3_universal.apk"
+      }
+    ],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "7.20.3",
+        "date": "2026-10-11",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/mollyim/mollyim-android/releases"
+      }
+    ],
+    "updatedAt": "2026-10-11",
+    "isTop": true
+  },
+  {
+    "id": "simplex",
+    "slug": "simplex",
+    "name": "SimpleX Chat",
+    "category": "messengers",
+    "categoryName": "Общение",
+    "icon": "https://github.com/simplex-chat.png?size=200",
+    "developer": "simplex-chat",
+    "githubUrl": "https://github.com/simplex-chat/simplex-chat",
+    "version": "6.1.0",
+    "size": "140 MB",
+    "license": "AGPL-3.0",
+    "shortDescription": "Мессенджер без идентификаторов пользователей с end-to-end шифрованием.",
+    "fullDescriptionMarkdown": "### О программе\nSimpleX Chat — мессенджер без идентификаторов пользователей с end-to-end шифрованием.\n\n### Особенности\n- Нет номеров и логинов\n- Двойной храповик шифрования\n- Собственные серверы\n\n### Лицензия\nПроект распространяется по лицензии **AGPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/simplex-chat/simplex-chat/releases/download/6.1.0/SimpleXChat_6.1.0_universal.apk",
+    "architectures": [
+      {
+        "name": "arm64-v8a",
+        "url": "https://github.com/simplex-chat/simplex-chat/releases/download/6.1.0/SimpleXChat_6.1.0_arm64-v8a.apk"
+      },
+      {
+        "name": "armeabi-v7a",
+        "url": "https://github.com/simplex-chat/simplex-chat/releases/download/6.1.0/SimpleXChat_6.1.0_armeabi-v7a.apk"
+      },
+      {
+        "name": "x86_64",
+        "url": "https://github.com/simplex-chat/simplex-chat/releases/download/6.1.0/SimpleXChat_6.1.0_x86_64.apk"
+      },
+      {
+        "name": "universal",
+        "url": "https://github.com/simplex-chat/simplex-chat/releases/download/6.1.0/SimpleXChat_6.1.0_universal.apk"
+      }
+    ],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "6.1.0",
+        "date": "2026-10-01",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/simplex-chat/simplex-chat/releases"
+      }
+    ],
+    "updatedAt": "2026-10-01",
+    "isTop": false
+  },
+  {
+    "id": "termux",
+    "slug": "termux",
+    "name": "Termux",
+    "category": "system",
+    "categoryName": "Системные & ADB",
+    "icon": "https://github.com/termux.png?size=200",
+    "developer": "termux",
+    "githubUrl": "https://github.com/termux/termux-app",
+    "version": "0.118.1",
+    "size": "98.4 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Эмулятор терминала и Linux-окружение для Android без root.",
+    "fullDescriptionMarkdown": "### О программе\nTermux — эмулятор терминала и Linux-окружение для Android без root.\n\n### Особенности\n- Пакетный менеджер pkg\n- Python, Node, Git, SSH\n- Расширения через плагины\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/termux/termux-app/releases/download/0.118.1/Termux_0.118.1_universal.apk",
+    "architectures": [
+      {
+        "name": "arm64-v8a",
+        "url": "https://github.com/termux/termux-app/releases/download/0.118.1/Termux_0.118.1_arm64-v8a.apk"
+      },
+      {
+        "name": "armeabi-v7a",
+        "url": "https://github.com/termux/termux-app/releases/download/0.118.1/Termux_0.118.1_armeabi-v7a.apk"
+      },
+      {
+        "name": "x86_64",
+        "url": "https://github.com/termux/termux-app/releases/download/0.118.1/Termux_0.118.1_x86_64.apk"
+      },
+      {
+        "name": "universal",
+        "url": "https://github.com/termux/termux-app/releases/download/0.118.1/Termux_0.118.1_universal.apk"
+      }
+    ],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "0.118.1",
+        "date": "2026-09-30",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/termux/termux-app/releases"
+      }
+    ],
+    "updatedAt": "2026-09-30",
+    "isTop": true
+  },
+  {
+    "id": "shizuku",
+    "slug": "shizuku",
+    "name": "Shizuku",
+    "category": "system",
+    "categoryName": "Системные & ADB",
+    "icon": "https://github.com/RikkaApps.png?size=200",
+    "developer": "RikkaApps",
+    "githubUrl": "https://github.com/RikkaApps/Shizuku",
+    "version": "13.5.4",
+    "size": "4.1 MB",
+    "license": "Apache-2.0",
+    "shortDescription": "Позволяет приложениям использовать системные API через ADB без root.",
+    "fullDescriptionMarkdown": "### О программе\nShizuku — позволяет приложениям использовать системные API через ADB без root.\n\n### Особенности\n- Работа через беспроводную отладку\n- Поддержка root-режима\n- API для разработчиков\n\n### Лицензия\nПроект распространяется по лицензии **Apache-2.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/RikkaApps/Shizuku/releases/download/13.5.4/Shizuku_13.5.4_universal.apk",
+    "architectures": [],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "13.5.4",
+        "date": "2026-09-18",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/RikkaApps/Shizuku/releases"
+      }
+    ],
+    "updatedAt": "2026-09-18",
+    "isTop": false
+  },
+  {
+    "id": "obtainium",
+    "slug": "obtainium",
+    "name": "Obtainium",
+    "category": "tools",
+    "categoryName": "Инструменты",
+    "icon": "https://github.com/ImranR98.png?size=200",
+    "developer": "ImranR98",
+    "githubUrl": "https://github.com/ImranR98/Obtainium",
+    "version": "1.1.30",
+    "size": "22.7 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Получайте обновления приложений напрямую из релизов GitHub и других источников.",
+    "fullDescriptionMarkdown": "### О программе\nObtainium — получайте обновления приложений напрямую из релизов GitHub и других источников.\n\n### Особенности\n- Отслеживание релизов GitHub\n- Автоматические проверки обновлений\n- Без посредников\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/ImranR98/Obtainium/releases/download/1.1.30/Obtainium_1.1.30_universal.apk",
+    "architectures": [
+      {
+        "name": "arm64-v8a",
+        "url": "https://github.com/ImranR98/Obtainium/releases/download/1.1.30/Obtainium_1.1.30_arm64-v8a.apk"
+      },
+      {
+        "name": "armeabi-v7a",
+        "url": "https://github.com/ImranR98/Obtainium/releases/download/1.1.30/Obtainium_1.1.30_armeabi-v7a.apk"
+      },
+      {
+        "name": "x86_64",
+        "url": "https://github.com/ImranR98/Obtainium/releases/download/1.1.30/Obtainium_1.1.30_x86_64.apk"
+      },
+      {
+        "name": "universal",
+        "url": "https://github.com/ImranR98/Obtainium/releases/download/1.1.30/Obtainium_1.1.30_universal.apk"
+      }
+    ],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "1.1.30",
+        "date": "2026-10-14",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/ImranR98/Obtainium/releases"
+      }
+    ],
+    "updatedAt": "2026-10-14",
+    "isTop": true
+  },
+  {
+    "id": "keepassdx",
+    "slug": "keepassdx",
+    "name": "KeePassDX",
+    "category": "security",
+    "categoryName": "Безопасность",
+    "icon": "https://github.com/Kunzisoft.png?size=200",
+    "developer": "Kunzisoft",
+    "githubUrl": "https://github.com/Kunzisoft/KeePassDX",
+    "version": "4.1.1",
+    "size": "18.2 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Менеджер паролей, совместимый с форматом KeePass (.kdbx).",
+    "fullDescriptionMarkdown": "### О программе\nKeePassDX — менеджер паролей, совместимый с форматом KeePass (.kdbx).\n\n### Особенности\n- Автозаполнение\n- Разблокировка биометрией\n- Работа офлайн\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.1/KeePassDX_4.1.1_universal.apk",
+    "architectures": [],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "4.1.1",
+        "date": "2026-09-25",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/Kunzisoft/KeePassDX/releases"
+      }
+    ],
+    "updatedAt": "2026-09-25",
+    "isTop": false
+  },
+  {
+    "id": "aegis",
+    "slug": "aegis",
+    "name": "Aegis",
+    "category": "security",
+    "categoryName": "Безопасность",
+    "icon": "https://github.com/beemdevelopment.png?size=200",
+    "developer": "beemdevelopment",
+    "githubUrl": "https://github.com/beemdevelopment/Aegis",
+    "version": "3.2",
+    "size": "9.6 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Защищённое приложение для двухфакторной аутентификации (TOTP/HOTP).",
+    "fullDescriptionMarkdown": "### О программе\nAegis — защищённое приложение для двухфакторной аутентификации (TOTP/HOTP).\n\n### Особенности\n- Шифрованное хранилище\n- Импорт из других приложений\n- Резервные копии\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/beemdevelopment/Aegis/releases/download/3.2/Aegis_3.2_universal.apk",
+    "architectures": [],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "3.2",
+        "date": "2026-10-05",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/beemdevelopment/Aegis/releases"
+      }
+    ],
+    "updatedAt": "2026-10-05",
+    "isTop": true
+  },
+  {
+    "id": "mindustry",
+    "slug": "mindustry",
+    "name": "Mindustry",
+    "category": "games",
+    "categoryName": "Игры & Эмуляторы",
+    "icon": "https://github.com/Anuken.png?size=200",
+    "developer": "Anuken",
+    "githubUrl": "https://github.com/Anuken/Mindustry",
+    "version": "v146",
+    "size": "58.3 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Стратегия с элементами tower defense и строительством производственных цепочек.",
+    "fullDescriptionMarkdown": "### О программе\nMindustry — стратегия с элементами tower defense и строительством производственных цепочек.\n\n### Особенности\n- Кампания и пользовательские карты\n- Мультиплеер\n- Моды\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/Anuken/Mindustry/releases/download/v146/Mindustry_v146_universal.apk",
+    "architectures": [],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "v146",
+        "date": "2026-08-30",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/Anuken/Mindustry/releases"
+      }
+    ],
+    "updatedAt": "2026-08-30",
+    "isTop": true
+  },
+  {
+    "id": "shpd",
+    "slug": "shpd",
+    "name": "Shattered Pixel Dungeon",
+    "category": "games",
+    "categoryName": "Игры & Эмуляторы",
+    "icon": "https://github.com/00-Evan.png?size=200",
+    "developer": "00-Evan",
+    "githubUrl": "https://github.com/00-Evan/shattered-pixel-dungeon",
+    "version": "3.0.0",
+    "size": "12.5 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Классический пиксельный roguelike с процедурными подземельями.",
+    "fullDescriptionMarkdown": "### О программе\nShattered Pixel Dungeon — классический пиксельный roguelike с процедурными подземельями.\n\n### Особенности\n- Сотни предметов\n- Несколько классов героев\n- Без рекламы и покупок\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/00-Evan/shattered-pixel-dungeon/releases/download/3.0.0/ShatteredPixelDungeon_3.0.0_universal.apk",
+    "architectures": [],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "3.0.0",
+        "date": "2026-09-10",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/00-Evan/shattered-pixel-dungeon/releases"
+      }
+    ],
+    "updatedAt": "2026-09-10",
+    "isTop": false
+  },
+  {
+    "id": "lemuroid",
+    "slug": "lemuroid",
+    "name": "Lemuroid",
+    "category": "games",
+    "categoryName": "Игры & Эмуляторы",
+    "icon": "https://github.com/Swordfish90.png?size=200",
+    "developer": "Swordfish90",
+    "githubUrl": "https://github.com/Swordfish90/Lemuroid",
+    "version": "1.16.2",
+    "size": "88.0 MB",
+    "license": "GPL-3.0",
+    "shortDescription": "Эмулятор ретро-консолей на базе Libretro с удобным интерфейсом.",
+    "fullDescriptionMarkdown": "### О программе\nLemuroid — эмулятор ретро-консолей на базе Libretro с удобным интерфейсом.\n\n### Особенности\n- NES, SNES, GBA, PSX и др.\n- Сохранения и облако\n- Поддержка геймпадов\n\n### Лицензия\nПроект распространяется по лицензии **GPL-3.0**. Исходный код открыт и доступен на GitHub.",
+    "downloadUrl": "https://github.com/Swordfish90/Lemuroid/releases/download/1.16.2/Lemuroid_1.16.2_universal.apk",
+    "architectures": [
+      {
+        "name": "arm64-v8a",
+        "url": "https://github.com/Swordfish90/Lemuroid/releases/download/1.16.2/Lemuroid_1.16.2_arm64-v8a.apk"
+      },
+      {
+        "name": "armeabi-v7a",
+        "url": "https://github.com/Swordfish90/Lemuroid/releases/download/1.16.2/Lemuroid_1.16.2_armeabi-v7a.apk"
+      },
+      {
+        "name": "x86_64",
+        "url": "https://github.com/Swordfish90/Lemuroid/releases/download/1.16.2/Lemuroid_1.16.2_x86_64.apk"
+      },
+      {
+        "name": "universal",
+        "url": "https://github.com/Swordfish90/Lemuroid/releases/download/1.16.2/Lemuroid_1.16.2_universal.apk"
+      }
+    ],
+    "changelog": "Исправлены ошибки, улучшена стабильность и производительность, обновлены переводы.",
+    "releases": [
+      {
+        "version": "1.16.2",
+        "date": "2026-09-05",
+        "notes": [
+          "Исправлены ошибки и улучшена стабильность",
+          "Обновлены переводы"
+        ],
+        "url": "https://github.com/Swordfish90/Lemuroid/releases"
+      }
+    ],
+    "updatedAt": "2026-09-05",
+    "isTop": false
+  }
+]
