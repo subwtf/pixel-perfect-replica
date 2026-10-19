@@ -1,4 +1,4 @@
-- [ ] Restore styles and verify desktop/mobile rendering.
-- [ ] Repair theme initialization and page metadata.
-- [ ] Verify navigation, search, category filters, downloads, and refresh; fix concrete defects.
-- [ ] Run regression tests and review final browser results.
+- [x] Restore styles and verify desktop/mobile rendering.
+- [x] Repair theme initialization and page metadata.
+- [x] Verify navigation, search, category filters, downloads, and refresh; fix concrete defects.
+- [x] Run regression tests and review final browser results (34 tests passed; 56 official URLs returned HTTP 200).
