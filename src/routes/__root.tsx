@@ -1,6 +1,7 @@
 import { QueryClient } from "@tanstack/react-query";
 import {
   Outlet,
+  HeadContent,
   Link,
   createRootRouteWithContext,
   useRouter,
@@ -78,6 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 function RootComponent() {
   return (
     <SiteLayout>
+      <HeadContent />
       <Outlet />
     </SiteLayout>
   );

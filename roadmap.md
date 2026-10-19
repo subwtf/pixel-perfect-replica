@@ -1,0 +1,4 @@
+- [ ] Restore styles and verify desktop/mobile rendering.
+- [ ] Repair theme initialization and page metadata.
+- [ ] Verify navigation, search, category filters, downloads, and refresh; fix concrete defects.
+- [ ] Run regression tests and review final browser results.
