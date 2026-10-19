@@ -14,4 +14,20 @@ describe("App routing", () => {
 
     expect(matches.at(-1)?.routeId).not.toBe(rootRouteId);
   });
+
+  it.each(["/apps", "/categories", "/popular", "/updates", "/about", "/app/newpipe"])("matches %s", (path) => {
+    const router = createRouter({ routeTree, context: { queryClient: new QueryClient() } });
+    expect(router.matchRoutes(path).at(-1)?.routeId).not.toBe(rootRouteId);
+  });
+
+  it("ignores an unknown category rather than showing an empty catalog", () => {
+    const router = createRouter({ routeTree, context: { queryClient: new QueryClient() } });
+    const match = router.matchRoutes("/apps", { cat: "invalid" }).at(-1);
+    expect(match?.search).toEqual({ cat: undefined });
+  });
+
+  it("preserves the games category", () => {
+    const router = createRouter({ routeTree, context: { queryClient: new QueryClient() } });
+    expect(router.matchRoutes("/apps", { cat: "games" }).at(-1)?.search).toEqual({ cat: "games" });
+  });
 });

@@ -12,6 +12,7 @@ const router = createRouter({
   routeTree,
   history: createHashHistory(),
   context: { queryClient },
+  scrollRestoration: true,
 })
 
 declare module '@tanstack/react-router' {

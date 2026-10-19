@@ -130,7 +130,7 @@
     font-family: var(--font-sans);
     transition: background-color 0.3s, color 0.3s;
   }
-  h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.02em; }
+  h1, h2, h3 { font-family: var(--font-display); letter-spacing: 0; overflow-wrap: anywhere; }
 }
 
 @utility shadow-card { box-shadow: var(--shadow-card); }
@@ -162,3 +162,12 @@
 .prose-app ul { list-style: disc; padding-left: 1.25rem; margin: 0.5rem 0; }
 .prose-app li { margin: 0.25rem 0; color: var(--muted-foreground); }
 .prose-app strong { color: var(--foreground); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

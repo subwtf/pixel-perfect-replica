@@ -10,16 +10,17 @@ export function SearchOverlay({ open, onOpenChange }: { open: boolean; onOpenCha
   const res = searchApps(q);
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="top-[12%] translate-y-0 gap-0 overflow-hidden rounded-2xl p-0 sm:max-w-xl">
+      <DialogContent aria-describedby={undefined} className="top-[12%] w-[calc(100%-1.5rem)] translate-y-0 gap-0 overflow-hidden rounded-2xl p-0 sm:max-w-xl">
         <DialogTitle className="sr-only">Поиск приложений</DialogTitle>
-        <div className="flex items-center gap-3 border-b px-4">
+        <div className="flex items-center gap-3 border-b pl-4 pr-12">
           <Search className="h-5 w-5 text-muted-foreground" />
           <input
             autoFocus
+            aria-label="Поиск приложений"
             value={q}
             onChange={(e) => setQ(e.target.value)}
             placeholder="Название, категория, репозиторий…"
-            className="h-14 flex-1 bg-transparent outline-none"
+            className="h-14 min-w-0 flex-1 bg-transparent outline-none"
           />
         </div>
         <div className="max-h-[60vh] overflow-y-auto p-2">
