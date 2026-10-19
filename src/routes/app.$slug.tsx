@@ -5,6 +5,7 @@ import { apps, getApp } from "@/lib/apps";
 import { AppCard, AppIcon } from "@/components/site/AppCard";
 import { AdContainer } from "@/components/site/AdContainer";
 import { DISCLAIMER } from "@/components/site/Layout";
+import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/app/$slug")({
   loader: ({ params }) => {
@@ -17,17 +18,15 @@ export const Route = createFileRoute("/app/$slug")({
     if (!a) return { meta: [{ title: "Приложение не найдено — GitAPK" }, { name: "robots", content: "noindex" }] };
     const v = a.version.replace(/^v/, "");
     const title = `Скачать ${a.name} ${v} APK с GitHub — GitAPK Релизы`;
-    const desc = `Скачайте последнюю версию ${a.name} (${v}) бесплатно с GitHub. ${a.shortDescription.replace(/\.$/, "")}. Без вирусов и рекламы.`;
+    const desc = `${a.name} (${v}): официальный релиз GitHub. ${a.shortDescription}`;
     return {
       meta: [
         { title },
         { name: "description", content: desc },
         { property: "og:title", content: title },
         { property: "og:description", content: desc },
-        { property: "og:image", content: a.icon },
         { property: "og:type", content: "website" },
         { name: "twitter:card", content: "summary" },
-        { name: "twitter:image", content: a.icon },
       ],
       scripts: [
         {
@@ -64,7 +63,7 @@ function AppPage() {
   return (
     <div className="mx-auto max-w-4xl space-y-6">
       <header className="flex gap-4 md:gap-6">
-        <AppIcon app={a} className="h-20 w-20 shadow-card md:h-24 md:w-24" />
+        <AppIcon app={a} className="h-20 w-20 shrink-0 shadow-card md:h-24 md:w-24" />
         <div className="min-w-0">
           <h1 className="text-2xl font-extrabold md:text-3xl">{a.name}</h1>
           <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm text-muted-foreground">
@@ -78,13 +77,18 @@ function AppPage() {
 
       <section className="space-y-3 rounded-2xl border bg-card p-4 md:p-6">
         <AdContainer slot="pre-download" />
-        <a href={a.downloadUrl} rel="nofollow noreferrer" className="flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-primary py-4 text-base font-bold text-primary-foreground shadow-glow transition-transform hover:scale-[1.01]">
-          <Download className="h-5 w-5" /> Скачать APK (v{v} • {a.size})
-        </a>
+        <Button asChild className="h-auto min-h-14 w-full whitespace-normal rounded-2xl bg-gradient-primary py-4 text-center text-base font-bold shadow-glow">
+          <a href={a.downloadUrl} target="_blank" rel="nofollow noreferrer">
+            <Download className="h-5 w-5 shrink-0" />
+            {a.downloadKind === "release" ? `Открыть релиз GitHub (v${v})` : `Скачать APK (v${v} • ${a.size})${a.downloadArchitecture && a.downloadArchitecture !== "universal" ? ` · ${a.downloadArchitecture}` : ""}`}
+          </a>
+        </Button>
         {a.architectures.length > 0 && (
           <div className="grid grid-cols-2 gap-2 md:grid-cols-4">
             {a.architectures.map((ar) => (
-              <a key={ar.name} href={ar.url} rel="nofollow noreferrer" className="rounded-xl border bg-background py-2.5 text-center text-sm font-medium hover:border-primary hover:text-primary">{ar.name}</a>
+              <Button asChild key={ar.name} variant="outline" className="h-auto rounded-xl py-2.5 text-center">
+                <a href={ar.url} target="_blank" rel="nofollow noreferrer">{ar.name}</a>
+              </Button>
             ))}
           </div>
         )}

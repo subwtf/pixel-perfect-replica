@@ -19,6 +19,8 @@ export type AppItem = {
   shortDescription: string;
   fullDescriptionMarkdown: string;
   downloadUrl: string;
+  downloadKind?: "apk" | "release";
+  downloadArchitecture?: string | null;
   architectures: { name: string; url: string }[];
   changelog: string;
   releases?: Release[];
