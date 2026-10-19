@@ -9,7 +9,7 @@ describe("Verified catalog downloads", () => {
     expect(app.version).toBe(release.version);
     expect(app.updatedAt).toBe(release.date);
     expect(release.urls).toContain(app.downloadUrl);
-    for (asset of app.architectures) {
+    for (const asset of app.architectures) {
       expect(release.urls).toContain(asset.url);
     }
   });
