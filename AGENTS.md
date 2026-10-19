@@ -8,3 +8,8 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep the static Vite app's Tailwind v4 integration enabled with @tailwindcss/vite so utility styles are generated.
+- Initialize browser theme before rendering, and handle unavailable browser storage in the shared theme module so theme selection cannot break the app.
+- Render route head metadata with TanStack Router HeadContent in the root layout so client-side page changes update document metadata.
+- Use only GitHub-verified asset URLs and release dates in the catalog; preserve an independent verified-assets manifest for regression checks and link to a release page when no APK asset is published.

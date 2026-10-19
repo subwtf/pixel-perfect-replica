@@ -5,7 +5,7 @@ import { CategoryChips } from "@/components/site/CategoryChips";
 
 export const Route = createFileRoute("/apps")({
   validateSearch: (s: Record<string, unknown>): { cat?: string | undefined } => ({
-    cat: typeof s["cat"] === "string" ? (s["cat"] as string) : undefined,
+    cat: typeof s["cat"] === "string" && categories.some((c) => c.id === s["cat"]) ? s["cat"] : undefined,
   }),
   head: () => ({
     meta: [
