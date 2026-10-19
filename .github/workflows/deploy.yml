@@ -22,9 +22,13 @@ jobs:
           npm install --legacy-peer-deps
           npm run build
 
-      - name: Prepare Public Dir
+      - name: Create Index and Fallback
         run: |
-          cp .output/public/index.html .output/public/404.html 2>/dev/null || true
+          mkdir -p .output/public
+          # Проверяем, какой файл сборки сгенерился в assets, и прописываем его в index.html
+          JS_FILE=$(ls .output/public/assets/index-*.js 2>/dev/null | xargs basename || echo "index.js")
+          echo '<!DOCTYPE html><html><head><meta charset="utf-8"><title>Pixel Perfect Replica</title><base href="/pixel-perfect-replica/"></head><body><div id="root"></div><script type="module" src="./assets/"></script></body></html>' > .output/public/index.html
+          cp .output/public/index.html .output/public/404.html
           touch .output/public/.nojekyll
 
       - name: Upload Artifact
